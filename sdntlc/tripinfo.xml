@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Thursday 02 April 2020 03:27:34 PM IST by Eclipse SUMO GUI Version v1_5_0+1075-3895fb2aa6
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="map/gwalior1.net.xml"/>
+        <route-files value="map/high_traffic.rou.xml"/>
+        <additional-files value="map/gwalior.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="8873"/>
+    </traci_server>
+
+    <gui_only>
+        <quit-on-end value="true"/>
+        <start value="false"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="60" depart="12.00" departLane="-384145608#1_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="39.00" arrivalLane="-99621717#3_0" arrivalPos="168.50" arrivalSpeed="26.94" duration="27.00" routeLength="545.35" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.86" rerouteNo="0" devices="tripinfo_60" vType="DEFAULT_VEHTYPE" speedFactor="1.00" vaporized=""/>
+    <tripinfo id="10" depart="2.00" departLane="-521511788_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="76.00" arrivalLane="521511808#0_0" arrivalPos="194.63" arrivalSpeed="20.36" duration="74.00" routeLength="883.29" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="23.06" rerouteNo="0" devices="tripinfo_10" vType="DEFAULT_VEHTYPE" speedFactor="0.94" vaporized=""/>
+    <tripinfo id="109" depart="21.00" departLane="-547746539#4_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="84.00" arrivalLane="547746539#4_0" arrivalPos="305.38" arrivalSpeed="14.67" duration="63.00" routeLength="621.58" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="20.20" rerouteNo="0" devices="tripinfo_109" vType="car" speedFactor="1.07" vaporized=""/>
+    <tripinfo id="52" depart="10.00" departLane="547665360#1_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="90.00" arrivalLane="547667474_0" arrivalPos="362.97" arrivalSpeed="13.68" duration="80.00" routeLength="862.44" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="18.81" rerouteNo="0" devices="tripinfo_52" vType="DEFAULT_VEHTYPE" speedFactor="1.00" vaporized=""/>
+</tripinfos>
